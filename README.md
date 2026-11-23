@@ -124,9 +124,8 @@ Username: admin’ and Password: Password
 
 Is a web application security vulnerability in which an attacker manipulates database queries through improperly validated login inputs to potentially bypass authentication. Penetration testers examine login forms to determine whether user input is safely handled by the application's database. If the application directly combines user input with SQL commands instead of using secure parameterized queries, malicious input may alter the intended query logic. 
 In this penetration test I was able to comment out the password and login without using a password.
- 
-
-### The portal displays the following report metadata:
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Logging%20in%20using%20SQL%20injection.jpg) 
+The portal displays the following report metadata:
 
 •	Pathology Report – S. Dlamini
 
@@ -140,46 +139,33 @@ In this penetration test I was able to comment out the password and login withou
 
 After gaining unauthorized access to the patient portal using SQL injection, critical findings were identified (three patient lab reports in a pdf format was available to download). This confidential medical lab reports should only be accessible to the patient and their doctors only.  
 After gaining access I was able to download three listed lab reports for different patients. Each entry includes a laboratory reference, report date, and encrypted PDF file.
- 
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Patient%20lab%20reports%20downloaded.jpg) 
 ### 4.4 Finding and Cracking Weak Password
 
 In this penetration testing an online Password cracker and Hash calculator from Networkwalks was used to identify the hashes of the documents and to crack the passwords. 
 
 ### Hash1
-
- 
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Hash1.jpg)
 ### Hash2
-
- 
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Hash2.jpg)
 ### Hash3
-
- 
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Hash3.png)
 ### Password1
- 
-
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Password1.jpg)
 ### Password2
- 
-
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Password2.jpg)
 ### Password3
-
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Password3.png)
 The password for patient report 3 pdf file was cracked using John the Ripper. 
  
-
-
-
 ### 5.	Evidence of Unlocked PDF files
 
 ### PDF1
-
-
- 
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/PDF1.jpg)
 ### PDF2
-
-
-
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/PDF2.jpg)
 ### PDF3
-
- 
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/PDF3.png)
 ### 5.1 Security Impact
 
 •	Access patient laboratory report listings.
@@ -201,10 +187,11 @@ The exposure of medical information is a result of privacy violations, regulator
 3.	Introduce login rate limiting and suspicious authentication attempt monitoring.
 4.	Review authentication logs for suspicious SQL injection attempts.
 5.	Verify that report download endpoints enforce authorization independently of the portal interface
-6.	Public Exposure of Internal Database Backup 
+
+### 6.	Public Exposure of Internal Database Backup 
 
 Nikto was used during penetration testing a several web directories were discovered and it led to critical information disclosure. Information about company shareholders and employee details and salaries. 
- 
+ ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/nikto.png)
 
 ### 6.1 Sensitive Information Disclosure
 
