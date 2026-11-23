@@ -95,16 +95,9 @@ Jonh the Ripper	A password-auditing tool used to test password strength and reco
 
 
 ### 3.2 Scanning the target for open ports and services using nmap
-
-
-
-
-
-
-
-
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/0fb515517acada90204c5549caea86667183b5be/Version%20scan.png)
 ### Critical Information Disclosed
- 
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/0fb515517acada90204c5549caea86667183b5be/Directory%20Disclosure.jpg)
 ### 4.  Accessing Patient Portal Login Page
 
 ### 4.1 Username Enumeration
@@ -114,24 +107,15 @@ Jonh the Ripper	A password-auditing tool used to test password strength and reco
 The process of identifying valid user accounts and assessing password-related security weaknesses in a system, website, or network. This process helps penetration testers evaluate authentication security and identify risks that could lead to unauthorized access. 
 Patient portal login page was accessed and tested using different combinations of usernames and passwords, showing different error messages confirming that one of the usernames was valid but with a wrong password.
 
-
-
-
-
-
+#### Username Not Found
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/0fb515517acada90204c5549caea86667183b5be/Username%20not%20found.jpg)
+#### Incorrect Passwprd
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/0fb515517acada90204c5549caea86667183b5be/Incorrect%20password.jpg)
 
 A username field was tested for SQL injection using 
 
 Username: admin’ and Password: Password
-
-
-
-
-
-
-
-
-
+![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/0fb515517acada90204c5549caea86667183b5be/SQL%20login%20error.jpg)
 ### 4.2 Patient Portal Authentication Bypass
 
 ### SQL Injection Login Bypass
