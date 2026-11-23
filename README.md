@@ -127,6 +127,7 @@ Patient portal login page was accessed and tested using different combinations o
 A username field was tested for SQL injection using 
 
 Username: admin’ and Password: Password
+
 ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/0fb515517acada90204c5549caea86667183b5be/SQL%20login%20error.jpg)
 ### 4.2 Patient Portal Authentication Bypass
 
