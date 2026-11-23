@@ -79,25 +79,37 @@ The assessment methodology included:
 
 ### 3.1 Tools 
 
-Tools	Purpose
-Kali Linux	A Linux-based operating system containing tools for penetration testing, ethical hacking, and security auditing.
-Nmap	Used for network scanning, host discovery, port scanning, and identifying running services.
-Browser (Chrome & Firefox)	Used to access and test websites, inspect web pages, and identify web application security issues.
-Curl	A command-line tool used to send HTTP/HTTPS requests and examine server responses.
-WhatWeb	Used to identify website technologies, CMS platforms, frameworks, and server information.
-NSlookup	Used to find DNS records and obtain domain-to-IP address information.
-Networkwalks Hash Calculator	Used to generate hash values from text or data using different hashing algorithms.
-Networkwalks Hash Cracker	Used to test and recover passwords from hashes using password-cracking techniques.
-WHOIS	Used to retrieve domain registration information, registrar details, registration dates, and name servers.
-Wafw00f	Used to detect and identify Web Application Firewalls (WAFs) protecting websites.
-ChatGPT	Used to understand cybersecurity concepts, explain tool outputs, troubleshoot commands, and assist with penetration-testing documentation.
-Jonh the Ripper	A password-auditing tool used to test password strength and recover passwords from supported password hashes.
+##  Tools and its	Purpose
 
+Kali Linux	- A Linux-based operating system containing tools for penetration testing, ethical hacking, and security auditing.
+
+Nmap	- Used for network scanning, host discovery, port scanning, and identifying running services.
+
+Browser (Chrome & Firefox) -	Used to access and test websites, inspect web pages, and identify web application security issues.
+
+Curl -	A command-line tool used to send HTTP/HTTPS requests and examine server responses.
+
+WhatWeb -	Used to identify website technologies, CMS platforms, frameworks, and server information.
+
+NSlookup -	Used to find DNS records and obtain domain-to-IP address information.
+
+Networkwalks Hash Calculator -	Used to generate hash values from text or data using different hashing algorithms.
+
+Networkwalks Hash Cracker -	Used to test and recover passwords from hashes using password-cracking techniques.
+
+WHOIS -	Used to retrieve domain registration information, registrar details, registration dates, and name servers.
+
+Wafw00f	- Used to detect and identify Web Application Firewalls (WAFs) protecting websites.
+
+ChatGPT -	Used to understand cybersecurity concepts, explain tool outputs, troubleshoot commands, and assist with penetration-testing documentation.
+
+John the Ripper -	A password-auditing tool used to test password strength and recover passwords from supported password hashes.
 
 ### 3.2 Scanning the target for open ports and services using nmap
 ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/0fb515517acada90204c5549caea86667183b5be/Version%20scan.png)
 ### Critical Information Disclosed
 ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/0fb515517acada90204c5549caea86667183b5be/Directory%20Disclosure.jpg)
+
 ### 4.  Accessing Patient Portal Login Page
 
 ### 4.1 Username Enumeration
@@ -124,7 +136,9 @@ Username: admin’ and Password: Password
 
 Is a web application security vulnerability in which an attacker manipulates database queries through improperly validated login inputs to potentially bypass authentication. Penetration testers examine login forms to determine whether user input is safely handled by the application's database. If the application directly combines user input with SQL commands instead of using secure parameterized queries, malicious input may alter the intended query logic. 
 In this penetration test I was able to comment out the password and login without using a password.
+
 ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Logging%20in%20using%20SQL%20injection.jpg) 
+
 The portal displays the following report metadata:
 
 •	Pathology Report – S. Dlamini
