@@ -57,14 +57,15 @@ The combination of potential unauthorized portal access and publicly exposed con
 ### 2. Scope
 
 A full black-box penetration test to identify vulnerabilities, exploit them and document all the findings. The assessment focused on the following publicly accessible resources:
-
-Component	Target
-Hospital website	medirozahospital.com
-Patient portal	/patient/portal.php
-Database backup	/old/mediroza_db_backup_2019.sql
-Authentication	Patient portal access controls
-Data confidentialit	Publicly accessible database files
-Laboratory reports	Report listing and download functionality
+	
+| Component | Target |
+|------|-----|
+| Hospital website |	medirozahospital.com |
+| Patient portal | /patient/portal.php |
+| Database backup | /old/mediroza_db_backup_2019.sql |
+| Authentication | Patient portal access controls |
+| Data confidentialit | Publicly accessible database files |
+| Laboratory reports | Report listing and download functionality |
 
 ### 3. Methodology
 
