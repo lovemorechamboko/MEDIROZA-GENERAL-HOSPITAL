@@ -272,16 +272,17 @@ The organization should prioritize the removal of exposed database backups and i
 
 ### Remediation Roadmap
 
-Priority	Recommended Action	Timeline
-P1	Remove public database backup	Immediate
-P1	Restrict access to backup directories	Immediate
-P1	Investigate potential unauthorized access to exposed data	Immediate
-P1	Validate and remediate authentication bypass	24–48 hours
-P2	Review portal authentication and authorization	7 days
-P2	Review server access logs	7 days
-P2	Implement prepared SQL statements	7–14 days
-P3	Introduce secure backup management procedures	30 days
-P3	Conduct a follow-up penetration test	After remediation
+| Priority | Recommended Action | Timeline |
+|------|-----|---------|
+| P1 | Remove public database backup  | Immediate |
+| P1| Restrict access to backup directories | Immediate |
+| P1 | Investigate potential unauthorized access to exposed data | Immediate |
+| P1 | Validate and remediate authentication bypass | 24–48 hours |
+| P2 | Review portal authentication and authorization | 7 days |
+| P2 | Review server access logs | 7 days |
+| P2 | Implement prepared SQL statements | 7–14 days |
+| P3 | Introduce secure backup management procedures | 30 days |
+| P3 | Conduct a follow-up penetration test | After remediation |
 
 ### 9. Conclusion
 
