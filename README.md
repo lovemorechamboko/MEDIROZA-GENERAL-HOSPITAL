@@ -144,7 +144,9 @@ The portal displays the following report metadata:
 
 After gaining unauthorized access to the patient portal using SQL injection, critical findings were identified (three patient lab reports in a pdf format was available to download). This confidential medical lab reports should only be accessible to the patient and their doctors only.  
 After gaining access I was able to download three listed lab reports for different patients. Each entry includes a laboratory reference, report date, and encrypted PDF file.
+
 ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Patient%20lab%20reports%20downloaded.jpg) 
+
 ### 4.4 Finding and Cracking Weak Password
 
 In this penetration testing an online Password cracker and Hash calculator from Networkwalks was used to identify the hashes of the documents and to crack the passwords. 
@@ -161,6 +163,7 @@ In this penetration testing an online Password cracker and Hash calculator from 
 ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Password2.jpg)
 ### Password3
 ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/Password3.png)
+
 The password for patient report 3 pdf file was cracked using John the Ripper. 
  
 ### 5.	Evidence of Unlocked PDF files
@@ -171,6 +174,7 @@ The password for patient report 3 pdf file was cracked using John the Ripper.
 ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/PDF2.jpg)
 ### PDF3
 ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/PDF3.png)
+
 ### 5.1 Security Impact
 
 •	Access patient laboratory report listings.
@@ -196,6 +200,7 @@ The exposure of medical information is a result of privacy violations, regulator
 ### 6.	Public Exposure of Internal Database Backup 
 
 Nikto was used during penetration testing a several web directories were discovered and it led to critical information disclosure. Information about company shareholders and employee details and salaries. 
+
  ![image alt](https://github.com/lovemorechamboko/MEDIROZA-GENERAL-HOSPITAL/blob/c41c6ebf0f85c9d9d6d621657048b5ec9c32160f/nikto.png)
 
 ### 6.1 Sensitive Information Disclosure
